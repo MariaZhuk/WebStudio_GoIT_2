@@ -8,6 +8,7 @@
     --secondary-text-color: #434455;
     --footer-text-color: #E7E9FC;
     --footer-logo-color: #F4F4FD;
+    --button-potfolio-text: #FFFFFF;
     --primery-text-size: 16px;
     --primery-line-height: 1.5;
     --accent-color: #404BBF;
@@ -125,3 +126,27 @@ a {
 }
 
 /* PORTFOLIO */
+.filter-button {
+    color: var(--button-potfolio-text);
+
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+
+.examples-link {
+    color: inherit;
+}
+
+.examples-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.examples-text {
+    color: var(--secondary-text-color);
+}
